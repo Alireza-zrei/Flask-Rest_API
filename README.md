@@ -1,11 +1,10 @@
 # Flask REST API with Prometheus Monitoring
 
-This project is a simple Flask REST API application that includes Prometheus metrics for monitoring. The application exposes a `/detect` endpoint and a `/metrics` endpoint for Prometheus to scrape metrics.
+This project is a simple Flask REST API application that includes Prometheus metrics for monitoring. The application exposes a `/` endpoint and a `/metrics` endpoint for Prometheus to scrape metrics.
 
 ## Features
 
-- **Flask REST API**: Provides a `/detect` endpoint that logs the HTTP request type and returns a JSON response.
-- **Database Integration**: Uses PostgreSQL for logging requests.
+- **Flask REST API**: Provides a `/` endpoint that logs the HTTP request type and returns a JSON response.
 - **Prometheus Monitoring**: Integrates Prometheus for monitoring application metrics.
 - **Dockerized**: The application, database, and Prometheus are containerized using Docker.
 
